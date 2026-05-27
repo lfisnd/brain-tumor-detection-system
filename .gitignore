@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Model weights and exported artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+models/*
+!models/
+!models/README.md
+!models/.gitkeep
+weights/**/*
+!weights/
+!weights/**/
+!weights/README.md
+!weights/**/.gitkeep
+
+# Datasets: keep configuration and placeholders, exclude medical images/labels/cache
+datasets/**/images/**/*
+datasets/**/labels/**/*
+datasets/**/Train/**/*
+datasets/**/Val/**/*
+datasets/**/train/**/*
+datasets/**/val/**/*
+datasets/**/*.cache
+!datasets/
+!datasets/**/*.yaml
+!datasets/**/
+!datasets/**/.gitkeep
+!datasets/README.md
+
+# Training and runtime outputs
+runs/
+results/
+outputs/
+wandb/
+*.log
+
+# Local vendored dependency copy; use the PyPI package for public installs
+ultralytics/

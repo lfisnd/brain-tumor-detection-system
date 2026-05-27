@@ -1,0 +1,63 @@
+{
+  "test_images": [
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\Meningioma\\images\\Tr-me_1295.jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\Glioma\\images\\Tr-gl_0343.jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\No Tumor\\images\\Tr-no_0532.jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\Pituitary\\images\\Tr-pi_0588.jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\Glioma\\images\\gg (81).jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\Glioma\\images\\gg (239).jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\No Tumor\\images\\image(5).jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\Meningioma\\images\\m3 (118).jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\No Tumor\\images\\Tr-no_0644.jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\Glioma\\images\\Tr-gl_0238.jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_segmentation\\icon\\images\\val\\y22.jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_segmentation\\icon\\images\\val\\y340.jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\Meningioma\\images\\Tr-meTr_0000.jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_segmentation\\icon\\images\\val\\y365.jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\Glioma\\images\\Tr-gl_0474.jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\Meningioma\\images\\m (141).jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\Pituitary\\images\\Tr-pi_0845.jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\No Tumor\\images\\image(274).jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\Glioma\\images\\gg (324).jpg",
+    "C:\\Users\\lf\\Desktop\\Brain Tumor Detection System\\data_classification\\icon\\Val\\No Tumor\\images\\Tr-no_0321.jpg"
+  ],
+  "results": [
+    {
+      "实验组": "A",
+      "模型配置": "仅分类检测",
+      "mAP@0.5": "96.81%",
+      "Precision": "96.59%",
+      "Recall": "94.05%",
+      "Dice": "-",
+      "推理时间(ms)": "68.80"
+    },
+    {
+      "实验组": "B",
+      "模型配置": "仅分割检测",
+      "mAP@0.5": "95.34%",
+      "Precision": "93.67%",
+      "Recall": "90.09%",
+      "Dice": "74.93%",
+      "推理时间(ms)": "74.96"
+    },
+    {
+      "实验组": "C",
+      "模型配置": "双模型协同",
+      "mAP@0.5": "87.09%",
+      "Precision": "87.09%",
+      "Recall": "82.74%",
+      "Dice": "82.00%",
+      "推理时间(ms)": "72.00"
+    },
+    {
+      "实验组": "D",
+      "模型配置": "单模型分类+分割",
+      "mAP@0.5": "94.68%",
+      "Precision": "93.92%",
+      "Recall": "94.68%",
+      "Dice": "91.58%",
+      "推理时间(ms)": "63.47"
+    }
+  ],
+  "timestamp": "2026-05-05T17:55:40.928259"
+}

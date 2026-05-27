@@ -1,0 +1,12 @@
+# Brain tumor classification dataset
+path: datasets/classification
+
+train: Train
+val: Val
+
+nc: 4
+names:
+  0: Glioma
+  1: Meningioma
+  2: No Tumor
+  3: Pituitary

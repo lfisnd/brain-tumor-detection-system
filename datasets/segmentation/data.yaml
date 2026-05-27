@@ -1,0 +1,9 @@
+# Brain tumor segmentation dataset
+path: datasets/segmentation
+
+train: images/train
+val: images/val
+
+nc: 1
+names:
+  0: tumor
